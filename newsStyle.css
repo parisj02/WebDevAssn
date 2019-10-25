@@ -1,0 +1,67 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+h1{
+    background-color: gray;
+    display: grid;
+    color: black;
+    height: 100px;
+    font-size: 15px;
+    margin-left: 3in;
+    margin-right: 1.5in;
+    background-image: linear-gradient(to left, aqua , grey);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 9px double #012e41;
+    grid-row: 1;
+    grid-column: 1/4;
+    
+}
+#top-stories{
+
+    display: grid;
+}
+
+section {
+    clear: both;
+    display: grid;
+}
+
+article {
+    display: grid;
+    width: 20%;
+    margin: 10px;
+}
+
+#kittyimg{
+    display: grid;
+    height: 200px;
+    width: 200px;
+}
+
+#sunsetimg{
+    display: grid;
+    height: 200px;
+    width: 200px;
+}
+
+
+#Sports {
+    display: grid;
+
+}
+#Travel {
+    display: grid;
+}
+#Politics {
+    display: grid;
+}
+
+
+#Entertainment {
+    display: grid;
+}
