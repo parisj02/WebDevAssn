@@ -1,5 +1,6 @@
 html{
     background-color: #919090;
+    color: white
 }
 .grid-container {
     display: grid;
@@ -24,8 +25,18 @@ h1{
     grid-column: 1/4;   
 }
 
+
+a.link{
+    color: white;
+}
+
+a.visited{
+    color:white;
+}
+
 h3{
     white-space: nowrap;
+    color: white;
 }
 
 #whatislife{
@@ -44,8 +55,8 @@ h3{
 #sunsetarticle{
     display: grid;
     background-image: linear-gradient(to bottom, #3832a8 , #a83232);
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
     color: white;
     grid-row: 1;
     border: white;
@@ -56,20 +67,18 @@ h3{
 
 #kittyimg{
     display: grid;
-    grid-column-start: 3;
-    grid-column-end: 4;
     grid-row: 1;
     height: 200px;
-    width: 200px;
+    width: 300px;
+    justify-content: center;
 }
 
 #sunsetimg{
     display: grid;
-    grid-column-start: 3;
-    grid-column-end: 4;
     grid-row: 1;
     height: 200px;
-    width: 200px;
+    width: 300px;
+    justify-content: center;
     
 }
 
@@ -83,7 +92,7 @@ h3{
 #Travel {
     display: grid;
     grid-row: 3;
-    grid-column: 3/4;
+    grid-column: 2;
     white-space: nowrap
 }
 #Politics {
