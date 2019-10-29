@@ -112,9 +112,9 @@ h2{
 */
 
 .carousel-wrapper {
-    height: 600px;
+    height: 400px;
     position: relative;
-    width: 1000px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -183,7 +183,7 @@ h2{
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background-image: url("kitty.jpeg");
+    background-image: url("kitty.jpg");
     background-size: cover;
     font: bold 2.5em arial,verdana;
     font-size: 15px;
