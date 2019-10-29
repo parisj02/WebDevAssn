@@ -3,39 +3,46 @@
     
 <head>
     <link rel=stylesheet href="newsStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+
 </head>
 <body>
 </body>
-<div class = "grid-container">
 <h1>SPONews12</h1>
 <section id="top-stories">
-    <h2>Top stories</h2>
-    <article id="sunsetarticle">
-        <h3><a href=articlePage.html target="_blank">Whats up with Spokane?</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit mi sodales ligula scelerisque pharetra.
-             Pellentesque egestas nisl orci, quis suscipit nunc faucibus a. Cras ipsum risus, tempor ut sodales sed, condimentum 
-             volutpat diam. Quisque porta nulla imperdiet est commodo, in dapibus ante efficitur. Etiam viverra vitae sem suscipit 
-             finibus. Phasellus interdum, turpis a suscipit interdum, lectus velit ullamcorper diam, vitae varius tellus est et massa.
-              Phasellus mattis lobortis purus vitae viverra. 
-            <img id="sunsetimg" src="sunset.jpeg" alt="Sunset over Spokane">
-        </p>
+    <section id="top-stories">
+    <h1>The Logan Gazette</h1>
+    <h2>Top Stories</h2>
+    <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <a href="articlePage.html" target="_blank"></a>
+        <div class="carousel-item item-1">
+            <h2>GONZAGA WINS</h2>
+            <h3 id = "slide_1">Gonzaga University beats BYU by 50!</h3>
+            <a class="arrow arrow-prev" href="#item-3"></a>
+            <a class="arrow arrow-next" href="#item-2"></a>
+        </div>
 
-    </article>
-    <article id="whatislife">
-        <h3><a href=articlePage.html target="_blank">What is life</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit mi sodales ligula scelerisque pharetra.
-                Pellentesque egestas nisl orci, quis suscipit nunc faucibus a. Cras ipsum risus, tempor ut sodales sed, condimentum 
-                volutpat diam. Quisque porta nulla imperdiet est commodo, in dapibus ante efficitur. Etiam viverra vitae sem suscipit 
-                finibus. Phasellus interdum, turpis a suscipit interdum, lectus velit ullamcorper diam, vitae varius tellus est et massa.
-                 Phasellus mattis lobortis purus vitae viverra. 
-            <img id="kittyimg" src="kitty.jpeg" alt="Cute Kitty">
-        </p>
+        <div class="carousel-item item-2">  
+            <h2 id = "slide_2">Zags in the NBA</h2>
+            <p>Which former Gonzaga player will have the best NBA career?</p>
+            <a class="arrow arrow-prev" href="#item-1"></a>
+            <a class="arrow arrow-next" href="#item-3"></a>
+        </div>
 
-    </article>
+        <div class="carousel-item item-3">
+            <h2 id = "slide_3">Item 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+            <a class="arrow arrow-prev" href="#item-2"></a>
+            <a class="arrow arrow-next" href="#item-1"></a>
+        </div>
+    </div>
 </section>
-a
 
-
+<div class = "category_container">
 <section id="sports">
     <h2>Sports</h2>
     <article>
@@ -54,7 +61,7 @@ a
     </article>
 </section>
 
-<section id="entertainment">
+<section id="Entertainment">
     <h2>Entertainment</h2>
     <article>
         <h3><a href=articlePage.html target="_blank"> Who cares about the oscars </a></h3>
@@ -70,8 +77,9 @@ a
     <article>
         <h3><a href=articlePage.html target="_blank"> Kim Kardashians newest genetically modified dogs </a></h3>
     </article>
+</section>
 
-    <section id="Travel">
+    <section id="travel">
         <h2>Travel</h2>
         <article>
             <h3><a href=articlePage.html target="_blank">California is underwater!</a></h3>
@@ -87,8 +95,9 @@ a
         <article>
             <h3><a href=articlePage.html target="_blank"> Boeing refuses to apologize for crashes </a></h3>
         </article>
+    </section>
 
-        <section id="Politics">
+        <section id="politics">
             <h2>Politics</h2>
             <article>
                 <h3><a href=articlePage.html target="_blank">Fist fight on the debate stage</a></h3>
@@ -104,6 +113,6 @@ a
             <article>
                 <h3><a href=articlePage.html target="_blank"> United States falls into anarchy </a></h3>
             </article>
-</section>
+        </section>
 </div>
 </html>
